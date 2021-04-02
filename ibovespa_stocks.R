@@ -39,9 +39,10 @@ for (i in 1:75) {
 
 # brazilian banks
 ggplot(acoes) +
-  geom_line(aes(Data, ITUB4.SA, color = 'Itaú Unibanco')) +
+  geom_line(aes(Data, ITUB4.SA, color = 'Ita? Unibanco')) +
   geom_line(aes(Data, BBAS3.SA, color = 'Banco do Brasil')) +
   geom_line(aes(Data, BBDC4.SA, color = 'Bradesco')) +
   geom_line(aes(Data, SANB11.SA, color = 'Santander')) +
-  labs(x = 'Data', y = 'Preço', title = 'Preço Ajustado para as Ações do Setor Bancário', colour = 'Banco')
+  labs(x = 'Data', y = 'Pre?o', title = 'Pre?o Ajustado para as A??es do Setor Banc?rio', colour = 'Banco')
 
+# test to repository
